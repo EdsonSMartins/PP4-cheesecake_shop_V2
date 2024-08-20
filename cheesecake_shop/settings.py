@@ -35,7 +35,7 @@ DEBUG = "DEVELOPMENT" in os.environ
 ALLOWED_HOSTS = ['pp4-cheesecake.herokuapp.com', 
                  'pp4-cheesecake-c25e3fb56709.herokuapp.com',
                  'localhost',
-                 '8000-edsonsmarti-pp4cheeseca-pv4kwpr308u.ws-eu110.gitpod.io']
+                 '8000-edsonsmarti-pp4cheeseca-gki49hv3i9p.ws-eu115.gitpod.io']
 
 
 CSRF_TRUSTED_ORIGINS = [
