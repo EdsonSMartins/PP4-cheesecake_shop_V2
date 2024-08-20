@@ -1,13 +1,13 @@
 # The Cheesecake Company 
-![mockup]()
-
 Cheesecake Company is a website built in Django using Python, JavaScript, CSS and HTML. Built with a user-centered approach. It main purpose is to enable users to create, control and cancel bookings and orders while the admin can change, update and delete the same information from the backend.
+
+![Am I responsive Screenshot](docs/amiresponsivecs.png)\
  
 <hr>
 
 The live deployed application can be found deployed on [Heroku](https://pp4-cheesecake-c25e3fb56709.herokuapp.com/).
 
-The link to my Github repository's [Github Repo](https://github.com/EdsonSMartins/PP4-cheesecake-order-app).
+The link to my Github repository's [Github Repo](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2).
 
 <hr>
 
