@@ -16,22 +16,79 @@ All HTML pages were run through the [W3C HTML Validator](https://validator.w3.or
 
 |Page|Result|
 |----|----|
-|booking_list.html|✔|
-|menu.html|✔|
-|index.html|✔|
-|booking_edit.html|✔|
-|booking_delete.html|✔|
-|booking_form.html|✔|
-|booking_confirmation.html|✔|
-|base.html|✔|
+|Home|✔|
+|Menu|✔|
+|Sign up|✔|
+|Sign in|✔|
+|Sign out|✔|
+|Booking form|✔|
+|My Bookings|✔|
+|Booking confirmation|✔|
+|Edit Booking|✔|
+|Delete Booking|✔|
+
+
+<details><summary>Home</summary>
+
+![Home page](docs/testing/validation_home.png)
+</details>
+
+<details><summary>Menu</summary>
+
+![Menu page](docs/testing/validation_menu.png)
+</details>
+
+<details><summary>Sign up</summary>
+
+![Sign up](docs/testing/validation_signup.png)
+</details>
+
+<details><summary>Sign in</summary>
+
+![Sign in](docs/testing/validation_signin.png)
+</details>
+
+<details><summary>Sign out</summary>
+
+![Sign out](docs/testing/validation_signout.png)
+</details>
+
+<details><summary>Booking form</summary>
+
+![Booking form](docs/testing/validation_bookingform.png)
+</details>
+
+<details><summary>My Bookings</summary>
+
+![My Bookings](docs/testing/validation_mybookings.png)
+</details>
+
+<details><summary>Booking Confirmation</summary>
+
+![Booking Confirmation](docs/testing/validation_mybookings.png)
+</details>
+
+<details><summary>Edit Booking</summary>
+
+![Edit Booking](docs/testing/validation_editbooking.png)
+</details>
+
+<details><summary>Delete Booking</summary>
+
+![Booking Confirmation](docs/testing/validation_deletebooking.png)
+</details>
 
 
 The errors received pertain to the built-in Django functionalities and are independent of any issues with the HTML structure.
 
 
 ### CSS
+The W3C Jigsaw CSS Validation Service
 
+<details><summary>CSS</summary>
 
+![CSS](docs/testing/validation_css.png)
+</details>
 
 ### Python
 
