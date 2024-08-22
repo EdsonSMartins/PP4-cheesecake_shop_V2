@@ -5,6 +5,8 @@ from booking_reservation.models import Booking
 from booking_reservation.forms import BookingForm
 
 # Create your views here.
+
+
 @login_required
 def booking_list(request):
     if request.user.is_superuser:

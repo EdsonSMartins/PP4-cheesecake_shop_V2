@@ -91,16 +91,15 @@ The W3C Jigsaw CSS Validation Service
 </details>
 
 ### Python
+
 - [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate Python code.
 
-- Booking reservation
+I ran the linter on my whole project, only excluding the venv directory to avoid errors from external packages. There were only a few errors that
+
 - Bookings
 - Cheesecake shop
 - shop
-<details><summary>Delete Booking</summary>
 
-![Booking Confirmation](docs/testing/validation_deletebooking.png)
-</details>
 ## Browser Testing
 
 

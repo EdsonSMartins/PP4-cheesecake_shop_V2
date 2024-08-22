@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "DEVELOPMENT" in os.environ
 
-ALLOWED_HOSTS = ['pp4-cheesecake.herokuapp.com', 
+ALLOWED_HOSTS = ['pp4-cheesecake.herokuapp.com',
                  'pp4-cheesecake-c25e3fb56709.herokuapp.com',
                  'localhost',
                  '8000-edsonsmarti-pp4cheeseca-gki49hv3i9p.ws-eu115.gitpod.io']
@@ -53,19 +53,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    
     'django_summernote',
     'crispy_forms',
     'crispy_bootstrap5',
-
     'shop',
-    'booking_reservation',    
-    'bookings',   
+    'booking_reservation',
+    'bookings',
 ]
 
 
@@ -115,12 +112,12 @@ WSGI_APPLICATION = 'cheesecake_shop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': BASE_DIR / 'db.sqlite3',
 #    }
-#}
+# }
 
 
 DATABASES = {
@@ -132,16 +129,20 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.'
+                'NumericPasswordValidator',
     },
 ]
 
