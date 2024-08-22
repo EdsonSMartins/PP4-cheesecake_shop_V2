@@ -10,7 +10,7 @@ from datetime import time
 def validate_opening_hours(value):
     opening_time = time(14, 0)
     closing_time = time(23, 0)
-    last_booking_time = closing_time.replace(hour=closing_time.hour-1,
+    last_booking_time = closing_time.replace(hour=closing_time.hour-2,
                                              minute=0, second=0,
                                              microsecond=0)
 
