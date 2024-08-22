@@ -3,6 +3,8 @@ from django_summernote.admin import SummernoteModelAdmin
 from .models import Booking
 
 # Register your models here.
+
+
 @admin.register(Booking)
 class BookingAdmin(SummernoteModelAdmin):
     list_display = ('name', 'number_of_guests', 'reservation_date',

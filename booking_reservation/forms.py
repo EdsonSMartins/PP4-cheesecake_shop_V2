@@ -81,3 +81,4 @@ class BookingForm(forms.ModelForm):
                                   'parties larger than 8 guests')
 
         return number_of_guests
+        

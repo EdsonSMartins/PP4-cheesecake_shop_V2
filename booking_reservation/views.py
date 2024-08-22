@@ -7,6 +7,7 @@ from .forms import BookingForm
 
 # Create your views here.
 
+
 @login_required
 def reservation_booking(request):
     booking_form = BookingForm()
@@ -27,4 +28,4 @@ def reservation_booking(request):
 def booking_confirmation(request):
     booking = Booking.objects.first()
     context = {'booking': booking}
-    return render(request,'booking_confirmation.html', context)
+    return render(request, 'booking_confirmation.html', context)
