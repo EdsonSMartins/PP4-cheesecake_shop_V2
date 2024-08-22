@@ -59,7 +59,8 @@ The initial idea for this project was to create an ordering application for my f
 
 ### **Site Goals**
 
-- Create an easy-to-use booking and ordering system.
+- Create an easy-to-use table booking system.
+- To provide a solution to allow users to view edit and cancel bookings online
 - Make the application responsive, so it can be used on desktop, tablet and mobile screen sizes.
 
 
@@ -90,7 +91,7 @@ This epic focuses on the foundational aspects of user management and authenticat
 |-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
 | As a **new user**, I want to **register and establish an account on the site**, so that I can **create a personalised profile**.        | **MUST HAVE**  |
 | As a **registered user**, I want to **log in to my account**, so that I can **access my bookings/orders**.                              | **MUST HAVE**  |
-| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.**.                         | **COULD HAVE** |
+| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.**.                   | **COULD HAVE** |
 
 
 
@@ -136,139 +137,134 @@ Content Moderation and Review involve features for administrators to monitor and
 ## **Surface Plane**
 
 ### **Design**
+
 ### **Colors and Fonts**
 I wanted to keep it simple and light. The color palette matches the cover image and is well suited color scheme for the full website.
 
 [Coolors.co](https://coolors.co/) was the website I've used to fetch the colour palette presented.
 
-![Colour Palette](readme_img/coolors.png)
+<details><summary>See colour pallet</summary>
+<img src="docs/coolors.png">
+</details>
+
+### Fonts
 
 The Fonts used are [Roboto Serifs](https://fonts.google.com/specimen/Roboto+Serif?query=robot+ser) and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montse).
 
 ### **Logo**
 [LOGO](https://logo.com/) was the webstie I've used to created logo for this project.
 
+##### Back to [top](#table-of-contents)<hr>
 # **Features**
 
 ### General features on each page
 
-The navigation menu and footer is continiously the same throughout all the pages of my website.
+The navigation menu and footer are continiously the same throughout all the pages of my website.
 
 
-### Home page
+### Home
+- Home page includes nav bar, main body and a footer
 
 <details>
 <summary>Click here!</summary>
 
-![Home Page](readme_files/features/home.png)
+![Home Page](docs/features/feature_home.png)
 
 </details>
 
-
-### Menu page
-
-<details>
-<summary>Click here!</summary>
-
-![Menu Page](readme_files/features/menu.png)
-
-
-</details>
-
-
-### Booking form page
+### Menu
+- The menu is organized by styles and available flavors.
+- Items can be added via the admin panel in the backend by staff
+- Staff can create, update and delete foods via the admin panel
 
 <details>
 <summary>Click here!</summary>
 
-![Form Page](readme_files/features/booking_form.png)
-
-</details>
-
-### Form Validation
-
-<details>
-<summary>Click here!</summary>
-
-![Form Validation](readme_img/form_validation/form_name_validation.png)
-![Form Validation](readme_img/form_validation/form_email_validation.png)
-![Form Validation](readme_img/form_validation/form_guest_num_validation.png)
-![Form Validation](readme_img/form_validation/form_date_time_validation.png)
-
-</details>
-
-### Booking confirmation page
-
-<details>
-<summary>Click here!</summary>
-
-![Confirmation Page](readme_img/features/booking_confirmation.png)
-
-</details>
-
-
-### Bookings list page
-
-<details>
-<summary>Click here!</summary>
-
-![Bookings Page](readme_img/features/empty_bookings.png)
-![Bookings Page](readme_img/features/bookings_list.png)
-
-</details>
-
-### Edit booking page
-
-<details>
-<summary>Click here!</summary>
-
-![Edit Page](readme_img/features/edit_booking.png)
-
-</details>
-
-### Delete booking page
-
-<details>
-<summary>Click here!</summary>
-
-![Delete Page](readme_img/features/delete_booking.png)
-
-</details>
-
-### Sign in page
-
-<details>
-<summary>Click here!</summary>
-
-![Sign in Page](readme_img/features/sign_in.png)
-
-</details>
-
-### Sign out page
-
-<details>
-<summary>Click here!</summary>
-
-![Sign out Page](readme_img/features/sign_out.png)
+![Menu Page](docs/features/feature_menu.png)
 
 </details>
 
 ### Sign up page
+- Allow users to register an account
+- Username and password is required, email is optional
 
 <details>
 <summary>Click here!</summary>
 
-![Sign up Page](readme_img/features/sign_up.png)
+![Sign up Page](docs/features/feature_signup.png)
 
 </details>
 
-### Final look of the Error pages
+### Sign in
+- User can login to create, view, edit and delete bookings
 
 <details>
 <summary>Click here!</summary>
 
-![Error 404 Page](readme_img/features/error_404.png)
-![Error 500 Page](readme_img/features/error_500.png)
+![Login Page](docs/features/feature_signin.png)
+
+</details>
+
+### Sign out
+- Allows the user to securely log out
+- Ask user if they are sure they want to log out
+
+<details>
+<summary>Click here!</summary>
+
+![Sign out Page](docs/features/feature_signout2.png)
+
+</details>
+
+
+### Booking form
+- Allows the user to book a table using the booking form
+- Messages are displayed if the data is not valid 
+
+<details>
+<summary>Click here!</summary>
+
+![Form Page](docs/features/feature_bookingform.png)
+
+</details>
+
+### My Bookings
+- Allows the user to see a list with all their bookings
+- Status of the booking is displayed, awaiting confirmation and when approved will then change to confirmed status for the user
+
+<details>
+<summary>Click here!</summary>
+
+![My Bookings](docs/features/feature_mybookings.png)
+
+
+</details>
+
+### Booking confirmation 
+
+<details>
+<summary>Click here!</summary>
+
+![Confirmation Page](docs/features/feature_bookingconfirmation.png)
+
+</details>
+
+### Edit booking 
+- Allows the user to edit their booking details
+
+<details>
+<summary>Click here!</summary>
+
+![Edit Page](docs/features/feature_bookingedit.png)
+
+</details>
+
+### Delete booking 
+- Allows the user to delete/cancel their booking
+<details>
+<summary>Click here!</summary>
+
+![Delete Page](docs/features/feature_bookingdelete.png)
 
 </details>
 
@@ -277,26 +273,15 @@ The navigation menu and footer is continiously the same throughout all the pages
 <details>
 <summary>Click here!</summary>
 
-![Footer](readme_img/features/footer.png)
+![Footer](docs/features/feature_footer.png)
 
-</details>
-
-### Success messages
-
-<details>
-<summary>Click here!</summary>
-
-![Booking success messages](readme_img/success_message/booking_success_message.png)
-![Sign in success messages](readme_img/success_message/sign_in_success_message.png)
-![Delete success messages](readme_img/success_message/delete_success_message.png)
-
-</details> <br>
+</details><br/>
 
 [Back to Contents](#table-of-contents)
 
 ### Future Implementations
 
-A few user stories were excluded from the current project due to time limitations. They are visible in on the dedicated [GitHub Projects](https://github.com/users/Darioc18/projects/2) kanban board for this project. The following are some of features that could be implemented in future iterations and that have been added to the *future implementations* on the kanban board:
+A few user stories were excluded from the current project due to time limitations. They are visible in on the dedicated [GitHub Projects](https://github.com/) kanban board for this project. The following are some of features that could be implemented in future iterations and that have been added to the *future implementations* on the kanban board:
 
 [Back to Contents](#table-of-contents)
 
@@ -377,8 +362,7 @@ This project uses [ElephantSQL](https://customer.elephantsql.com/) for the Postg
 6. At the *Config Vars* section click *Reveal Config Vars* and add the following:
    - **DATABASE_URL** with the copied URL from ElephantSQL
    - **SECRET_KEY** with your secret key
-   - **PORT** with the value 8000
-   - **CLOUDINARY_URL** with the copied URL from Cloudinary
+   - **PORT** with the value 8000   
    - **DISABLE_COLLECTSTATIC** with the value 1
 
 ## **Final Changes**
@@ -393,7 +377,7 @@ This project uses [ElephantSQL](https://customer.elephantsql.com/) for the Postg
 ## **Forking**
 
 Forking creates a copy of the project on GitHub. Follow these steps to fork this repository:
-1. Log in to your GitHub account and navigate to [the Cheesecake repository](https://github.com/Julia-Wagner/PipeTracker).
+1. Log in to your GitHub account and navigate to [the Cheesecake repository](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2).
 2. Click the **Fork** button on the top right of the repository.
 3. You can now open the forked copy of this project as your own repository.
 4. Follow the above steps to work on the project.
