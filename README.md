@@ -92,7 +92,7 @@ To get a better understanding of what the application will look like I have list
 
 **EPIC 1 - Key site functions:**
 
-This epic encompasses the management of collection orders. Users can view and interact with the ordering panel in order to view, create, edit and delete their orders.
+This epic efer to the essential features and capabilities that enable the core operations of a website. These functions are crucial for the website to achieve its primary objectives and provide value to users. Examples of key site functions might include user registration and login, content management, or any other critical feature that supports the main purpose of the site."
 
 | User Story                                                                                                                              | Priority       |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
@@ -130,7 +130,7 @@ This epic encompasses the management of bookings. Users can view and interact wi
 
 **EPIC 4 - User Authentication:**
 
-This epic focuses on the foundational aspects of user management and authentication, ensuring users can securely access the platform. It includes functionalities such as logging in, logging out, password reset and user registration.
+This epic focuses on the foundational aspects of user management and authentication, ensuring users can securely access the platform. It includes functionalities such as logging in, logging out and user registration.
 
 | User Story                                                                                                                              | Priority       |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
@@ -144,6 +144,13 @@ This epic focuses on the foundational aspects of user management and authenticat
 ### **Wireframes**
 
 ### **Database Schema**
+"The data model for the restaurant project follows Object-Oriented Programming principles and leverages Django's Class-Based Views. User authentication is managed through Django AllAuth. Table bookings are handled by a custom reservation model that records key details such as full name, nickname, booking date and time, number of guests, and any special requests. This reservation model is linked to the User model, ensuring that each booking is associated with a specific user."
+
+<details>
+<summary>ERD</summary>
+
+![Home Page](docs/erd.png)
+</details>
 
 ## **Surface Plane**
 
@@ -158,9 +165,13 @@ I wanted to keep it simple and light. The color palette matches the cover image 
 <img src="docs/coolors.png">
 </details>
 
+[Back to Contents](#table-of-contents)
+
 ### Fonts
 
 The Fonts used are [Roboto Serifs](https://fonts.google.com/specimen/Roboto+Serif?query=robot+ser) and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montse).
+
+[Back to Contents](#table-of-contents)
 
 ### **Logo**
 [LOGO](https://logo.com/) was the webstie I've used to created logo for this project.
@@ -180,8 +191,9 @@ The navigation menu and footer are continiously the same throughout all the page
 <summary>Click here!</summary>
 
 ![Home Page](docs/features/feature_home.png)
-
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### Menu
 - The menu is organized by styles and available flavors.
@@ -192,8 +204,9 @@ The navigation menu and footer are continiously the same throughout all the page
 <summary>Click here!</summary>
 
 ![Menu Page](docs/features/feature_menu.png)
-
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### Sign up page
 - Allow users to register an account
@@ -203,8 +216,9 @@ The navigation menu and footer are continiously the same throughout all the page
 <summary>Click here!</summary>
 
 ![Sign up Page](docs/features/feature_signup.png)
-
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### Sign in
 - User can login to create, view, edit and delete bookings
@@ -216,6 +230,8 @@ The navigation menu and footer are continiously the same throughout all the page
 
 </details>
 
+[Back to Contents](#table-of-contents)
+
 ### Sign out
 - Allows the user to securely log out
 - Ask user if they are sure they want to log out
@@ -224,9 +240,9 @@ The navigation menu and footer are continiously the same throughout all the page
 <summary>Click here!</summary>
 
 ![Sign out Page](docs/features/feature_signout2.png)
-
 </details>
 
+[Back to Contents](#table-of-contents)
 
 ### Booking form
 - Allows the user to book a table using the booking form
@@ -236,8 +252,9 @@ The navigation menu and footer are continiously the same throughout all the page
 <summary>Click here!</summary>
 
 ![Form Page](docs/features/feature_bookingform.png)
-
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### My Bookings
 - Allows the user to see a list with all their bookings
@@ -247,9 +264,9 @@ The navigation menu and footer are continiously the same throughout all the page
 <summary>Click here!</summary>
 
 ![My Bookings](docs/features/feature_mybookings.png)
-
-
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### Booking confirmation 
 
@@ -259,6 +276,8 @@ The navigation menu and footer are continiously the same throughout all the page
 ![Confirmation Page](docs/features/feature_bookingconfirmation.png)
 
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### Edit booking 
 - Allows the user to edit their booking details
@@ -270,6 +289,8 @@ The navigation menu and footer are continiously the same throughout all the page
 
 </details>
 
+[Back to Contents](#table-of-contents)
+
 ### Delete booking 
 - Allows the user to delete/cancel their booking
 <details>
@@ -278,6 +299,8 @@ The navigation menu and footer are continiously the same throughout all the page
 ![Delete Page](docs/features/feature_bookingdelete.png)
 
 </details>
+
+[Back to Contents](#table-of-contents)
 
 ### Footer
 
@@ -290,21 +313,19 @@ The navigation menu and footer are continiously the same throughout all the page
 
 [Back to Contents](#table-of-contents)
 
-### Future Implementations
-
-A few user stories were excluded from the current project due to time limitations. They are visible in on the dedicated [GitHub Projects](https://github.com/) kanban board for this project. The following are some of features that could be implemented in future iterations and that have been added to the *future implementations* on the kanban board:
-
-[Back to Contents](#table-of-contents)
-
 # **Agile**
 
 Agile methodology is a dynamic, iterative approach to project management and software development, focusing on adaptability, collaboration, and customer satisfaction. It emphasizes making incremental progress, gathering continuous feedback, and responding to changing requirements throughout the development process.
 
 To check the project's board click [here](https://github.com/users/EdsonSMartins/projects/4). The details of my agile approach can be found in the separate [AGILE.md file](AGILE.md).
 
+[Back to Contents](#table-of-contents)
+
 # **Testing**
 
 Please refer to the separate [TESTING.md](TESTING.md) file.
+
+[Back to Contents](#table-of-contents)
 
 # Technologies Used
 
@@ -337,9 +358,13 @@ Please refer to the separate [TESTING.md](TESTING.md) file.
 
 Here is the [link to the deployed project](https://pp4-cheesecake-c25e3fb56709.herokuapp.com/).
 
+[Back to Contents](#table-of-contents)
+
 ## **Create Repository**
 
 The first step is to create a new repository, using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template). After creating the repository, you can open it in the IDE of your choice.
+
+[Back to Contents](#table-of-contents)
 
 ## **Project Setup**
 
@@ -353,6 +378,8 @@ The first step is to create a new repository, using the [Code Institute Template
    - `django-admin startproject <name>` (in my case `<name>` was *cheesecake_shop*)
 5. Test to see if everything worked:
    - `python manage.py runserver`
+
+[Back to Contents](#table-of-contents)
    
 ## **Database Setup**
 
@@ -364,6 +391,8 @@ This project uses [ElephantSQL](https://customer.elephantsql.com/) for the Postg
 4. Click *Select Region* and choose a data center near you
 5. Click *Review* and if the details are correct click *Create instance*
 6. Click on the created instance and copy the database URL
+
+[Back to Contents](#table-of-contents)
 
 ## **Heroku Setup**
 
@@ -378,6 +407,8 @@ This project uses [ElephantSQL](https://customer.elephantsql.com/) for the Postg
    - **PORT** with the value 8000   
    - **DISABLE_COLLECTSTATIC** with the value 1
 
+[Back to Contents](#table-of-contents)
+
 ## **Final Changes**
 
 1. Add `ALLOWED_HOSTS = ["PROJECT_NAME.herokuapp.com", "localhost"]` in **settings.py**
@@ -387,6 +418,8 @@ This project uses [ElephantSQL](https://customer.elephantsql.com/) for the Postg
    - Go to the *Deploy tab* and connect your GitHub repository
    - Click on *Deploy Branch* at the bottom of the page
 
+[Back to Contents](#table-of-contents)
+
 ## **Forking**
 
 Forking creates a copy of the project on GitHub. Follow these steps to fork this repository:
@@ -394,6 +427,8 @@ Forking creates a copy of the project on GitHub. Follow these steps to fork this
 2. Click the **Fork** button on the top right of the repository.
 3. You can now open the forked copy of this project as your own repository.
 4. Follow the above steps to work on the project.
+
+[Back to Contents](#table-of-contents)
 
 ## **Packages**
 
@@ -404,6 +439,7 @@ Forking creates a copy of the project on GitHub. Follow these steps to fork this
 - [django-allauth](https://docs.allauth.org/en/latest/) - authentication, registration, account management.
 - [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) - control the rendering behaviour of Django forms.
 
+[Back to Contents](#table-of-contents)
 
 # **Credits**
 
@@ -425,6 +461,10 @@ Extra help I've used for this project, please see links below.
 - The code is mostly created by me and I was inspired by my friend business [Cheesecakedalata](https://www.instagram.com/cheesecakedalata/?hl=en).
 - The landing page image was generated on [Pixlr](https://pixlr.com/image-generator/).
 
+[Back to Contents](#table-of-contents)
+
 # **Acknowledgements**
 
 I would like to express my gratitude to my Code Institute mentor and the CI Tutor team, for guidance and clear advice to build this project.
+
+[Back to Contents](#table-of-contents)

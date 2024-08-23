@@ -32,7 +32,7 @@ Moscow Prioritization is a popular method used in project management, particular
 <details><summary>labels</summary>
 
 ![Labels](docs/agile/agile_labels.png)
-</details><h/>
+</details>
 
 Unfinished user stories can be found in either to-do or the won't have section of my project board.
 
