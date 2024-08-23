@@ -142,6 +142,41 @@ This epic focuses on the foundational aspects of user management and authenticat
 ## **Skeleton Plane**
 
 ### **Wireframes**
+The wireframes include a view for desktop and mobile to take responsiveness into account. For those whose layout is different on smaller devices, I created a sample wireframe. The main difference in smaller screen is a collapsed NavBar accessible at the hamburger icon and the footer where the items stack up. 
+
+I used [Figma](https://www.figma.com) for making wireframes.
+
+<details><summary><b>Home Page</b></summary>
+   
+![Home Page](/docs/wireframe/wireframe_home.png)
+![Home Page](/docs/wireframe/wireframe_homemobile.png)
+</details><br />
+
+<details><summary><b>Menu</b></summary>
+   
+![Menu](/docs/wireframe/wireframe_menu.png)
+</details><br />
+
+<details><summary><b>Booking</b></summary>
+   
+![Booking](/docs/wireframe/wireframe_booking.png)
+</details><br />
+
+<details><summary><b>My Booking</b></summary>
+   
+![My Booking](/docs/wireframe/wireframe_mybooking.png)
+![Home Page](/docs/wireframe/wireframe_mybookingmobile.png)
+</details><br />
+
+<details><summary><b>Sign up</b></summary>
+   
+![Sign up](/docs/wireframe/wireframe_signup.png)
+</details><br />
+
+<details><summary><b>Sign in</b></summary>
+   
+![Sign in](/docs/wireframe/wireframe_signin.png)
+</details><br />
 
 ### **Database Schema**
 "The data model for the restaurant project follows Object-Oriented Programming principles and leverages Django's Class-Based Views. User authentication is managed through Django AllAuth. Table bookings are handled by a custom reservation model that records key details such as full name, nickname, booking date and time, number of guests, and any special requests. This reservation model is linked to the User model, ensuring that each booking is associated with a specific user."
