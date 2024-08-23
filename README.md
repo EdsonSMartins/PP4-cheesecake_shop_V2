@@ -115,27 +115,28 @@ Content Moderation and Review involve features for administrators to monitor and
 | As a **site admin**, I want to **sign in**, so that I can **access the back end of the site**. | **MUST HAVE** |
 
 
-**EPIC 3 - User Authentication:**
-
-This epic focuses on the foundational aspects of user management and authentication, ensuring users can securely access the platform. It includes functionalities such as logging in, logging out, password reset and user registration.
-
-| User Story                                                                                                                              | Priority       |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| As a **new user**, I want to **register and establish an account on the site**, so that I can **create a personalised profile**.        | **MUST HAVE**  |
-| As a **registered user**, I want to **log in to my account**, so that I can **access my bookings/orders**.                              | **MUST HAVE**  |
-| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.**.                   | **COULD HAVE** |
-
-
-**EPIC 4 - Bookings:**
+**EPIC 3 - Bookings:**
 
 This epic encompasses the management of bookings. Users can view and interact with the booking panel in order to view, make new booking, edit and delete their bookings.
 
 | User Story                                                                                                                              | Priority       |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| As a **Site User/Admin**, I want to **access the booking form**, so that I can **initiate a table reservation**.                        | **MUST HAVE**  |
-| As an **Admin**, I want to **view a list of all scheduled bookings**, so that I can **keep track and manage bookings acceptance/rejection.** | **MUST HAVE**  |
-| As a **Site User**, I want to **update a reservation/booking**, so that I can **cancel or apply changes if needed.**                    | **MUST HAVE**  |
-| As a **Site User**, I want to **delete a reservation/booking**, so that I can **manage my bookings and keep it up to date.**            | **MUST HAVE**  |
+| As a **Site User/Admin**, I want to **Sign up as directed**, so that I can **initiate a table reservation**. | **MUST HAVE**  |
+| As a **Site User**, I want to **create a booking by completing a form**, so that I can **I can reserve my table** | **MUST HAVE**  |
+| As a **Site User**, I want to **view my booking**, so that I can **manage my bookings and keep it up to date.** | **MUST HAVE**  |
+| As an **Site User**, I want to **be able to update my booking**, so that I can **make amendments if necessary.** | **MUST HAVE**  |
+| As an **Site User**, I want to **be able to delete my booking**, so that I can **cancel my table reservation.** | **MUST HAVE**  |
+| As an **Site User**, I want to **be able to only book future dates**, so that I can **guarantee my booking is valid.** | **MUST HAVE**  |
+
+**EPIC 4 - User Authentication:**
+
+This epic focuses on the foundational aspects of user management and authentication, ensuring users can securely access the platform. It includes functionalities such as logging in, logging out, password reset and user registration.
+
+| User Story                                                                                                                              | Priority       |
+|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| As a **Site User**, I want to **register and establish an account**, so that I can **have my details stored for faster booking in future**.  | **MUST HAVE**  |
+| As a **registered user**, I want to **log in to my account**, so that I can **access my bookings or make new ones**. | **MUST HAVE**  |
+| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.**. | **COULD HAVE** |
 
 
 ## **Skeleton Plane**
@@ -297,7 +298,7 @@ A few user stories were excluded from the current project due to time limitation
 
 # **Agile**
 
-GitHub Project Boards and Kanban are instrumental in collaborative project management. To check the project's board click [here](https://github.com/users/EdsonSMartins/projects/2/views/1)
+GitHub Project Boards and Kanban are instrumental in collaborative project management. To check the project's board click [here](https://github.com/users/EdsonSMartins/projects/4)
 
 # **Testing**
 
