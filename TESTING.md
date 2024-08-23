@@ -1,13 +1,35 @@
 ## Table of Contents - Testing
 - [User Story Testing](#user-story-testing)
 - [Code Validation](#code-validation)
-- [Browser Testing](#browser-testing)
-- [Lighthouse](#lighthouse)
+- [Device Testing and Browser Testing](#device-testing-and-browser-testing)
 - [Manual Testing](#manual-testing)
 - [Bugs](#bugs)
 - [Unsolved Bugs](#unsolved-bugs)
 
 ## User Story Testing
+
+In order for the **Acceptance Criteria met** to be ticked, every criterion specified in the linked project issue has to be fulfilled.
+
+| User Story                                                                                                                                                            | Link to Acceptance Criteria                                   | Acceptance Criteria met                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------|
+| As a **site user**, I want to **use a navbar, footer, and social icons**, so that I can **navigate the site, access menus, and access socials**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/1)  | &check; |
+| As a **site user**, I want to **navigate across the site**, so that I can **move to each feature of the site easily**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/2)  | &check;                                |
+| As a **Site Owner**, I want to **provide a fully responsive site for my customers**, so that I can **ensure a good user experience**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/3)  | &check; |
+| As a **site user**, I want to **view the food menu**, so that I can **decide whether to eat at the business**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/4)  | &check;                                |
+| As a **site user**, I want to **visit an about page**, so that I can **learn more about the business**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/5)  | Feature not included for first release  |
+| As a **site user**, I want to **view the opening hours and contact details**, so that I can **plan ahead my next visit**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/6)  | &check; |
+| As a **site admin**, I want to **delete/update/approve bookings from any user**, so that I can **maintain the integrity of the platform and avoid duplicity**.  | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/7)  | &check;                                |
+| As a **site admin**, I want to **create, read, update and delete food items from menu**, so that I can **keep it updated according to product availability**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/8)  | &check; |
+| As a **site admin**, I want to **sign in**, so that I can **access the back end of the site**.                                                               | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/9)  | &check;                                |
+| As a **Site User/Admin**, I want to **Sign up as directed**, so that I can **initiate a table reservation**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/10) | &check;                                |
+| As a **Site User**, I want to **create a booking by completing a form**, so that I can **I can reserve my table**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/11) | &check; |
+| As a **Site User**, I want to **view my booking**, so that I can **manage my bookings and keep it up to date.**.  | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/12) | &check; |
+| As an **Site User**, I want to **be able to update my booking**, so that I can **make amendments if necessary.**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/13) | &check; |
+| As an **Site User**, I want to **be able to delete my booking**, so that I can **cancel my table reservation.** | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/14) | &check; |
+| As an **Site User**, I want to **be able to only book future dates**, so that I can **guarantee my booking is valid.** | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/15) | &check; |
+| As a **Site User**, I want to **register and establish an account**, so that I can **have my details stored for faster booking in future**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/16) | &check; |
+| As a **registered user**, I want to **log in to my account**, so that I can **access my bookings or make new ones**. | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/17) | &check; |
+| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.** | [link](https://github.com/EdsonSMartins/PP4-cheesecake_shop_V2/issues/18) | Feature not included for first release |
 
 
 ## Code Validation
@@ -97,7 +119,7 @@ I ran the linter on my entire project, and after making a few adjustments, such 
 - [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate Python code.
 
 
-## Device Testing & Browser Testing
+## Device Testing and Browser Testing
 
 BrowserStack played a crucial role by providing access to real devices for testing, as opposed to just emulators. The devices I used to test my site are:
 

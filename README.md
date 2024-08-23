@@ -134,9 +134,9 @@ This epic focuses on the foundational aspects of user management and authenticat
 
 | User Story                                                                                                                              | Priority       |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| As a **Site User**, I want to **register and establish an account**, so that I can **have my details stored for faster booking in future**.  | **MUST HAVE**  |
-| As a **registered user**, I want to **log in to my account**, so that I can **access my bookings or make new ones**. | **MUST HAVE**  |
-| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.**. | **COULD HAVE** |
+| As a **Site User**, I want to **register and establish an account**, so that I can **have my details stored for faster booking in future.**  | **MUST HAVE**  |
+| As a **registered user**, I want to **log in to my account**, so that I can **access my bookings or make new ones** | **MUST HAVE**  |
+| As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.** | **COULD HAVE** |
 
 
 ## **Skeleton Plane**
