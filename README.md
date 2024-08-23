@@ -55,7 +55,14 @@ The initial idea for this project was to create an ordering application for my f
 ### **Target Audience**
 
 - Business owner
-- Users: current users, new users that are not registered, food enthusiasts 
+- Users: current users, new users that are not registered, food enthusiasts
+
+### **User Goals**
+
+- ### **Site Goals**
+
+- Create, edit and cancel a online booking.
+- To view menu and booking history.
 
 ### **Site Goals**
 
@@ -83,7 +90,32 @@ To get a better understanding of what the application will look like I have list
 
 ## **Structure Plane**
 
-**EPIC: User Authentication:**
+**EPIC 1 - Key site functions:**
+
+This epic encompasses the management of collection orders. Users can view and interact with the ordering panel in order to view, create, edit and delete their orders.
+
+| User Story                                                                                                                              | Priority       |
+|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| As a **site user**, I want to **use a navbar, footer, and social icons**, so that I can **navigate the site, access menus, and access socials**. | **MUST HAVE** |
+| As a **site user**, I want to **navigate across the site**, so that I can **move to each feature of the site easily**. | **MUST HAVE**  |
+| As a **Site Owner**, I want to **provide a fully responsive site for my customers**, so that I can **ensure a good user experience**. | **MUST HAVE** |
+| As a **site user**, I want to **view the food menu**, so that I can **decide whether to eat at the business**.  | **MUST HAVE** |
+| As a **site user**, I want to **visit an about page**, so that I can **learn more about the business**.  | **COULD HAVE** |
+| As a **site user**, I want to **view the opening hours and contact details**, so that I can **plan ahead my next visit**.  | **MUST HAVE** |
+
+
+**EPIC 2 : Administrator functionality**
+
+Content Moderation and Review involve features for administrators to monitor and manage the content on the platform.
+
+| User Story                                                                                                                              | Priority       |
+|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| As a **site admin**, I want to **delete/update/approve bookings from any user**, so that I can **maintain the integrity of the platform and avoid duplicity**. | **MUST HAVE** |
+| As a **site admin**, I want to **create, read, update and delete food items from menu**, so that I can **keep it updated according to product availability**. | **SHOULD HAVE** |
+| As a **site admin**, I want to **sign in**, so that I can **access the back end of the site**. | **MUST HAVE** |
+
+
+**EPIC 3 - User Authentication:**
 
 This epic focuses on the foundational aspects of user management and authentication, ensuring users can securely access the platform. It includes functionalities such as logging in, logging out, password reset and user registration.
 
@@ -94,8 +126,7 @@ This epic focuses on the foundational aspects of user management and authenticat
 | As a **site owner**, I want to **manage user roles**, so that I can **choose who can access sensitive information.**.                   | **COULD HAVE** |
 
 
-
-**EPIC: Bookings:**
+**EPIC 4 - Bookings:**
 
 This epic encompasses the management of bookings. Users can view and interact with the booking panel in order to view, make new booking, edit and delete their bookings.
 
@@ -105,27 +136,6 @@ This epic encompasses the management of bookings. Users can view and interact wi
 | As an **Admin**, I want to **view a list of all scheduled bookings**, so that I can **keep track and manage bookings acceptance/rejection.** | **MUST HAVE**  |
 | As a **Site User**, I want to **update a reservation/booking**, so that I can **cancel or apply changes if needed.**                    | **MUST HAVE**  |
 | As a **Site User**, I want to **delete a reservation/booking**, so that I can **manage my bookings and keep it up to date.**            | **MUST HAVE**  |
-
-
-**EPIC: Collection orders:**
-
-This epic encompasses the management of collection orders. Users can view and interact with the ordering panel in order to view, create, edit and delete their orders.
-
-| User Story                                                                                                                              | Priority       |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| As a **site user**, I want to **create orders**, so that I can **have a new order created**.                                            | **SHOULD HAVE**  |
-| As a **site user**, I want to **view a list of my orders**, so that I can **keep track and manage my orders effectively**.              | **SHOULD HAVE**  |
-| As a **site user**, I want to **edit the details of my order**, so that I can **make necessary adjustments**.                           | **SHOULD HAVE**  |
-| As a **site user**, I want to **delete an order**, so that I can **I can remove unnecessary orders**.                                   | **SHOULD HAVE**  |
-
-
-**EPIC: Content Moderation and Review**
-
-Content Moderation and Review involve features for administrators to monitor and manage the content on the platform.
-
-| User Story                                                                                                                              | Priority       |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| As a **site admin**, I want to **delete/update/approve reviews and comments from any user**, so that I can **maintain the integrity of the platform**.   | **COULD HAVE**  |
 
 
 ## **Skeleton Plane**
@@ -155,12 +165,12 @@ The Fonts used are [Roboto Serifs](https://fonts.google.com/specimen/Roboto+Seri
 [LOGO](https://logo.com/) was the webstie I've used to created logo for this project.
 
 ##### Back to [top](#table-of-contents)<hr>
+
 # **Features**
 
-### General features on each page
+## General features on each page
 
 The navigation menu and footer are continiously the same throughout all the pages of my website.
-
 
 ### Home
 - Home page includes nav bar, main body and a footer
@@ -414,4 +424,4 @@ Extra help I've used for this project, please see links below.
 
 # **Acknowledgements**
 
-I would like to express my gratitude to my Code Institute mentor Adeye Adegbenga and the CI Tutor team, for guidance and clear advice to build this project.
+I would like to express my gratitude to my Code Institute mentor and the CI Tutor team, for guidance and clear advice to build this project.
