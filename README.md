@@ -298,7 +298,9 @@ A few user stories were excluded from the current project due to time limitation
 
 # **Agile**
 
-GitHub Project Boards and Kanban are instrumental in collaborative project management. To check the project's board click [here](https://github.com/users/EdsonSMartins/projects/4)
+Agile methodology is a dynamic, iterative approach to project management and software development, focusing on adaptability, collaboration, and customer satisfaction. It emphasizes making incremental progress, gathering continuous feedback, and responding to changing requirements throughout the development process.
+
+To check the project's board click [here](https://github.com/users/EdsonSMartins/projects/4). The details of my agile approach can be found in the separate [AGILE.md file](AGILE.md).
 
 # **Testing**
 
